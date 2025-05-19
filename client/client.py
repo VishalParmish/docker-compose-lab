@@ -19,5 +19,5 @@ decodedContent = encodedContent.decode("utf8")
 # Display the server file: 'index.html'.
 print(decodedContent)
 
-# Close the server connection.
+# Close the server connect
 fp.close()
