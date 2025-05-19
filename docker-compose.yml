@@ -54,6 +54,6 @@ services:
 
     # The keyword'depends_on' allows you to define whether the service
     # should wait until other services are ready before launching.
-    # Here, we want the 'client' service to wait until the 'server' service is ready.
+    # Here, we want the 'client' service to wait until the 'server' server service is ready.
     depends_on:
       - server
